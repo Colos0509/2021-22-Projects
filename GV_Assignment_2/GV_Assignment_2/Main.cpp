@@ -44,7 +44,7 @@ int main(int argc, char* argv[])
 
 	Stone stone(screen);   //Asteroid game object class
 	stone.SetRandPos(0, -150);
-	stone.SetAngle(25.0 + rand() % 360);   
+	stone.SetAngle(25.0f + rand() % 360);   
 	stone.SetAsteroidFall(1, 5);
 
 	Explosion explosion(screen);   //Class for explosions
