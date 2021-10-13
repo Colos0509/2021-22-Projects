@@ -6,6 +6,7 @@ Sprites::Sprites()
 {
     m_image = nullptr; 
     m_animationVelocity = 0.0f;
+    m_imageCel = 0;
 
     m_isAnimationLooping = false;   //no animation by default
     isAnimationDead = false;
